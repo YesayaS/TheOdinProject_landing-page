@@ -86,7 +86,7 @@ button {
     flex: 1;
     justify-content: center;
     gap: 32px;
-    padding: 32px 128px;
+    padding: 64px 128px;
     background-color: var(--hero-bg);
 }
 
@@ -119,7 +119,7 @@ button {
 .information {
     flex: 1;
     align-self: center;
-    margin: 32px 128px;
+    margin: 64px 128px;
 }
 
 .information-header {
