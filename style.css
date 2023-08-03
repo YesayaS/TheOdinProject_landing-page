@@ -16,6 +16,28 @@
     font-style: italic;
 }
 
+:root{
+    --hero-bg: #1F2937;
+}
+
 body {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--hero-bg);
+}
+
+.hero {
+    background-color: var(--hero-bg);
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: var(--hero-bg);
 }
