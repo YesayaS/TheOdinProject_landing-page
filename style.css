@@ -150,8 +150,24 @@ button {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    padding: 128px 128px;
     background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .signup {
