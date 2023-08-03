@@ -49,7 +49,6 @@ a {
 }
 
 .header {
-    height: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,11 +71,17 @@ a {
 
 .hero {
     display: flex;
+    flex: 1;
     background-color: var(--hero-bg);
 }
 
 .quote {
+    flex: 1;
     background-color: #E5E7EB;
+}
+
+.signup {
+    flex: 1;
 }
 
 .footer {
