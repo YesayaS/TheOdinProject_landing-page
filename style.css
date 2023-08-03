@@ -5,6 +5,12 @@
 
 @font-face {
     font-family: Roboto;
+    src: url(font/Roboto-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Roboto;
     src: url(font/Roboto-Bold.ttf);
     font-weight: bold;
 }
@@ -18,16 +24,50 @@
 
 :root{
     --hero-bg: #1F2937;
+    --hero-main: #F9FAF8;
+    --hero-thin: #E5E7EB;
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-between;
     font-family: Roboto;
     margin: 0;
     padding: 0;
 }
 
+ul {
+    list-style: none;
+    padding: none;
+}
+
+a {
+    color: var(--hero-thin);
+    text-decoration: none;
+}
+
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 128px;
     background-color: var(--hero-bg);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--hero-main);
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    font-weight: lighter;
+    gap: 18px;
 }
 
 .hero {
