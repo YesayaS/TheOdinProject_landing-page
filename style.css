@@ -32,7 +32,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex: auto;
     justify-content: space-between;
     font-family: Roboto;
     margin: 0;
@@ -71,6 +70,7 @@ a {
 }
 
 .hero {
+    display: flex;
     background-color: var(--hero-bg);
 }
 
@@ -79,5 +79,11 @@ a {
 }
 
 .footer {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: var(--hero-thin);
     background-color: var(--hero-bg);
 }
