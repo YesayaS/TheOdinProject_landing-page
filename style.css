@@ -48,6 +48,14 @@ a {
     text-decoration: none;
 }
 
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 6px 16px;
+    color: white;
+    background-color: #3882F6;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -72,7 +80,36 @@ a {
 .hero {
     display: flex;
     flex: 1;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 128px;
     background-color: var(--hero-bg);
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--hero-main);
+}
+
+.hero-text {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--hero-thin);
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+    background-color: grey;
 }
 
 .quote {
@@ -92,4 +129,8 @@ a {
     font-size: 18px;
     color: var(--hero-thin);
     background-color: var(--hero-bg);
+}
+
+* { /* visual helper */
+    border: 0px solid red;
 }
