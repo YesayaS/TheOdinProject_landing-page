@@ -113,7 +113,11 @@ button {
     align-items: center;
     width: 50%;
     color: white;
-    background-color: grey;
+    
+    background-image: url(img/doge.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .information {
@@ -143,10 +147,12 @@ button {
     width: 150px;
 }
 
-.image-box {
-    border: 2px solid #3882F6;
+.image-box img {
+    border: 3px solid #3882F6;
     border-radius: 10px;
+    width: 150px;
     aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .image-text {
